@@ -1,13 +1,10 @@
 #include <iostream>
-#include <fstream>
 #include <vector>
-#include <algorithm>
 #include <cstring>
 #include <sstream>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-#include <numeric>
 
 
 std::vector<std::string> parse_input(std::string& buffer)
