@@ -39,9 +39,9 @@ while(running)
 }
 ```
 for now running can be replaced with true but it is for small cases. In future when we want to break loop after getting error in
-some function, it is necessary to pass running as param. it is what it looks like: 
+some function, it is necessary to pass running as param. it is what termiansl interface looks like: 
 
-### mish> 
+### mish> your command here
 
 I had to add if (result[0] == "exit" || result[0] == "logout") break; line because system exec funtions actually can't understand
 what is "exit" or "logout" command. The next step is parsing user input. 
